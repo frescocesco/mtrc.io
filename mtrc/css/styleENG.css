@@ -1,0 +1,705 @@
+* {
+    font-family: "Heebo", sans-serif !important;
+    line-height: 25px !important;
+    text-shadow: none !important;
+	font-weight: lighter;}
+
+body {
+	min-width: 1280px;
+	min-height: : 800px;
+}
+
+.bold {
+	font-weight: bold;
+		opacity: 1;
+}
+
+#carga {
+    position:relative;
+    min-width: 100% ; 
+    min-height: 100% ;
+    left: 0px;
+    top:0px;
+    z-index:0;
+}
+
+#skip {
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+	left: 72px;
+	z-index: 1;
+	width: auto;
+	opacity: 0;
+	font-size: 20px;
+}
+
+
+/*HELVETICA*/
+@font-face {
+    font-family: Helvetica;
+    src: url(font/heebo.woff2);
+}
+
+
+/* pagina inizio */
+
+.begin a, .begin img {
+	position: absolute;
+}
+
+
+.espanolimg {
+	top:356.15px;
+	left:201.07px;
+}
+
+
+.englishimg {
+	top:358.17px;
+	left:750.49px;
+}
+
+
+
+.linebegin {
+	top:237.77px;
+	left:640.65px;
+}
+
+
+
+
+
+ /*galleria*/
+
+
+#pagina2 ul.images {
+    margin: 0;
+    padding: 0;
+    top: 72px;
+    white-space: nowrap;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    overflow-y: hidden;
+    height: 630px;
+    -webkit-overflow-scrolling: touch;
+    list-style-type: none;
+    position: relative;
+    z-index: 3;
+}
+  ul.images li {
+   /* width: 150px;
+    height: 150px;*/
+    position: absolute;
+    margin-top: -110px;
+    margin-left: -80px;
+  }
+
+#p1 {
+	top:191px;
+	left:59px;
+}
+
+#p2
+{
+	top:461px;
+	left:71px;
+}
+
+#p3
+{
+	top:207.38px;
+	left:245.58px;
+}
+#p4
+{
+	left:428.41px;
+	top:154.91px;
+}
+#p5
+{
+	left:657.89px;
+	top:104px;
+}
+#p6
+{
+	left:569.15px;
+	top:510.48px;
+}
+#p7
+{
+	left:738px;
+	top:470px;
+}
+#p8
+{
+	left:917.91px;
+	top:505px;
+}
+#p9
+{
+	left:978.22px;
+	top:190.94px;
+}
+#p10
+{
+	left:1129px;
+	top:335px;
+}
+#p11
+{
+	left:1116px;
+	top:526px;
+}
+#p12
+{
+	left:1225px;
+	top:104px;
+}
+#p13
+{
+	left:1425.55px;
+	top:311px;
+}
+#p14
+{
+	left:1411px;
+	top:461px;
+}
+#p15
+{
+	left:1511px;
+	top:151px;
+}
+#p16
+{
+	left:1818px;
+	top:184px;
+}
+#p17
+{
+	left:1971px;
+	top:482px;
+}
+#p18
+{
+	left:2068px;
+	top:96px;
+}
+#p19
+{
+	left:2254.09px;
+	top:11.51px;
+}
+
+#p20
+{ left: 2500px;
+	top:50px; 
+pointer-events: none;}
+
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.menu2 {
+	text-align: right;
+	margin-top: 40px;
+	padding-right: 60px;
+}
+
+.title {
+	position: absolute;
+	left:118px;
+	top:75px;
+	width: auto;
+	z-index: 5;
+}
+
+#lang {
+	position: relative;
+	float: right;
+	color: red;
+	margin-right: 0px;
+	
+}
+
+
+.lineamenu {
+	position: relative;
+	width: 100%;
+	height:6px;
+	background-color: white;
+	z-index: 6;
+
+}
+.footer 
+{
+	position: absolute;
+  	top:700px;
+ 	margin-left:60px;
+	width: 90%;
+	height: 70px;
+
+}
+
+ul.menu,ul.menu2,ul.navroom
+{
+	list-style-type: none;
+	padding-left: 0;
+	position: relative;
+	top: 10px;
+	width: 100%;
+}
+ul.menu li, ul.menu2 li,ul.navroom li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+/* ROOMS INDICE */
+
+
+
+
+#room-index
+{position: relative;
+margin:25px 40px 40px 40px;}
+
+#room-index img {
+	position: absolute;
+}
+
+.ch {top: 470.91px; left:90.32px;}
+.r1 {top: 471.14px; left:490.87px;}
+
+#linea1
+{position: absolute;
+	top:470.91px;
+	left: 90.32px; 
+	width: 535px;
+	height:12px;
+	background-color: white;
+}
+
+.r2 {top: 280.87px; left:492.32px; border-top: white solid 12px;}
+.ca {top: 30.48px; left:485.04px;}
+.tr {top: 30.48px; left:896.67px;}
+#linea2 
+{	position: absolute;
+	top:30.48px;
+	left: 491.04px; 
+	width: 652px;
+	height:12px;
+	background-color: white;
+}
+
+/* sfondi pagine */
+
+#pagina1{
+	background-color: #BDB6AF;
+}
+
+#pagina0{
+	background-color: #BDB6AF;
+}
+
+#pagina2 {
+}
+
+.cemento {
+background: url("sfondo2.png");
+background-repeat: repeat-x;
+background-position: 0px 0px;
+overflow-x:scroll;
+}	
+
+#pagina3 {
+	background-color: #BCB5B1;
+}
+
+#pagina4 {
+	background-color: #958c83;
+}
+
+#pagina5 {
+	background-color: #8E8A87;
+}
+
+#pagina6 {
+	background-color: #B7B5B2;
+}
+
+#pagina7 {
+	background-color: #2E2929;
+}
+
+#pagina8, #pagina9 {
+	background-color: #A0A5A8;
+}
+
+/* pagina info */
+
+#info1ln {
+	opacity: 1;
+}
+
+#info2ln {
+	opacity: 0.2;
+}
+
+#info3ln {
+	opacity: 0.2;
+}
+
+#lineainfo {
+	width: 430px;
+	position: absolute;
+	left: 773px;
+	top: 98px;
+	height:5px;
+	background-color: white;
+	z-index: 6;
+}
+
+.corridor-hist {
+	position: relative;
+	bottom: 5px;
+}
+.teatro-romano {
+	position: relative;
+	top:20px;
+	left:20px;
+	
+}
+
+.room2 {
+	position: relative;
+}
+
+
+.room1 {
+	position: relative;
+	right: 15px;
+}
+
+.teatro-romano img, .corridor-hist img, .room1 img, .room2 img, .corridor-arq img
+{position: absolute;
+margin-bottom:100px;}
+
+.teatro-romano p, .corridor-hist p, .room1 p, .room2 p, .corridor-arq p , .descr p{
+	width:312.03px;
+	height:530.22px;
+	position: absolute;
+	overflow: auto;
+	color: white;
+	font-size: 16px;
+	opacity: 0.6;
+	line-height: 25px;
+}
+
+.teatro-romano p {
+	left: 718px;
+	top:93px;
+	height:472px;
+	width: 343px;
+}
+
+.corridor-hist p {
+	left: 741.13px;
+	top:64.63px;
+	margin-top: 50px;
+	height: 540px;
+}
+.corridor-hist img {
+	margin-top: 50px;
+}
+.room1 p {
+	left: 188.39px;
+	top:96.56px;
+	text-align: right;
+	width: 331.78px;
+	height: 534.86px;
+}
+.room2 p {
+	left: 770.42px;
+	top:92.79px;
+	width:334.07px;
+	height:538.56px;
+}
+.corridor-arq p {
+	left: 207.02px;
+	top:84px;
+	width: 324.66px;
+	height:549.34px;
+	text-align: right;
+}
+
+ul.navroom {
+	position: absolute;
+	text-align: center;
+	top:44px;
+}
+
+/* PAGINA TEATRO PLUS */
+
+.list {
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: absolute;
+	text-align: right;
+	width: 270.6px;
+	height: 318px;
+	top:214px;
+	left:198.4px;
+	}
+
+	.punta {
+		z-index: 9;
+		opacity: 1;
+	}
+
+	.descr {
+		width: 274px;
+		height: auto;
+		position: absolute;
+		left: 154px;
+		top: 159px;
+	}
+	.descr img {
+		position: relative;
+		left: 40px;
+	}
+	.descr p {
+		text-align: right;
+		overflow: auto;
+	}
+	.hide {
+		opacity:0.3;
+		pointer-events: none;
+		filter: grayscale(70%);
+	}
+	.selected {
+		opacity: 1;
+		filter: grayscale(0%);
+	}
+
+.expl{
+	z-index: 50;
+	position: relative;
+	bottom:350px;
+	left:250px;
+	width: auto;
+	height: auto;
+	display: none;
+
+}
+.expl p {
+	width:350px;
+	height:263px;
+	position: relative;
+	left: 45px;
+	bottom: 15px;
+	overflow:auto;
+	white-space: normal;
+	z-index: 50;
+	color: white;
+	font-size: 15px;
+	opacity: 0.65;
+	line-height: 22px;
+	pointer-events: auto;
+}
+
+.galeriadiv {
+	height: 100vh;
+	width: 100vw;
+background-color: rgba(0,0,0,0.3);
+z-index: 0;}
+
+.selected div
+{display: block;}
+
+/*GALLERIA TITOLI*/
+
+#p1 div, #p2 div{
+	bottom:130px;
+}
+
+#p1 div p, #p2 div p, #p4 div p {
+	bottom: 30px;
+	height: 400px;
+}
+
+
+#p4 div {
+	bottom: 90px;
+	left: 180px;
+}
+
+#p3 div {
+	z-index:1;
+}
+
+#p3 div p {
+	bottom: 30px;
+}
+
+#p5 div {
+	bottom: 300px;
+	left: 250px;
+}
+
+#p5 div p {
+	height: 400px;
+	left: 45px;
+	width:320px;
+}
+
+#p6 div{
+	bottom: 250px;
+	left: 170px;
+}
+#p7 div {
+	bottom: 300px;
+	left:170px;
+}
+
+#p7 div p {
+	bottom:30px;
+
+}
+
+#p8 div{
+	bottom: 120px;
+	left: 170px;
+}
+
+#p6 div p, #p8 div p{
+	bottom: 45px;
+}
+
+#p9 div {
+	bottom: 100px;
+	left: 180px;
+}
+#p9 div p{
+	bottom: 5px;
+}
+
+#p10 div, #p13 div {
+	bottom: 120px;
+	left: 170px;
+}
+
+#p10 div p, #p13 div p {
+	bottom: 35px;
+	left: 45px;
+}
+
+#p11 span {
+	line-height: 30px;
+	font-style: italic;
+}
+
+#p11 div {
+	bottom: 435px;
+	left: 230px;
+}
+
+#p11 div p {
+height: 350px;
+bottom: 30px;
+left:45px;
+}
+
+#p12 div {
+	bottom: 80px;
+	left: 190px;
+}
+
+#p12 div p {
+	bottom: 30px;
+	left: 45px;
+}
+
+#p13 div {
+	bottom: 80px;
+	left: 180px;
+}
+
+#p13 div p {
+	bottom: 35px;
+	left: 45px;
+}
+
+#p14 div {
+	left: 540px;
+	bottom: 550px;
+}
+
+#p14 div p {
+	bottom: 95px;
+	height: 445px;
+}
+
+#p15 div {
+	bottom: 80px;
+	left: 200px;
+}
+
+#p16 div p {
+	height: 445px;
+}
+
+#p16 div {
+	bottom: 130px;
+	left: 150px;
+}
+
+#p17 div {
+	left: 630px;
+}
+#p18 div {
+	bottom: 130px;
+	left: 190px;
+}
+#p19 div {}
+
+ul.trgal {
+	position: relative;
+    margin:0;
+    padding:0;
+    top: 60px;
+    white-space: nowrap;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    height: auto;
+    -webkit-overflow-scrolling: touch;
+    list-style-type: none;
+    z-index: 3;
+}
+
+ul.trgal li {
+	position: relative;
+	display: inline-block;
+    margin-top: 110px;
+    margin-right: 80px;
+  }
+
+  video {
+  width: 75%;
+  position: relative;
+ top:50px;
+ left: 155px;
+}
